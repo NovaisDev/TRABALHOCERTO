@@ -1,0 +1,272 @@
+
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F4874B;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    text-shadow: #9d9ddf;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    
+    height: 8vh; 
+
+  }
+header {
+    background-color: #F46A4E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* sombra abaixo do header */ box-shadow: 0 8px 130px rgba(0, 0, 0, 0.2)
+}
+
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+/* COR DO TEXTO DO HEADER */
+nav a {
+    text-decoration: none;
+    color: #e7dfdf;
+    font-family: "poppins" sans-serif;
+}
+
+/*CARD INICIO*/
+
+.card {
+    
+    display: inline-block; /* Esta propriedade faz com que os cards fiquem lado a lado */
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-right: 20px; /* Espaçamento entre os cards */
+    
+}
+
+#center {
+    
+align-items: center;
+justify-content: center;
+margin: 150  5px;
+display: inline-block;
+margin-right: 20px;
+
+
+}
+.card:last-child {
+    margin-right: 0px; /* Remove o espaçamento do último card */
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 10px;
+    color: #555;
+}
+
+.card a {
+    
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #F46A4E;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card a:hover {
+    background-color: #F46A4E;
+}
+/*CARD FIM */
+
+/*CARD INICIO*/
+
+.card1:hover /* card sombra */
+
+{ background-color: #358b44; 
+
+transition: 1.0s;
+
+opacity: 0.7;
+}
+.card1 {
+    
+    display: inline-block; /* Esta propriedade faz com que os cards fiquem lado a lado */
+    width: 200px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-right: 10px; /* Espaçamento entre os cards */
+    
+}
+.card1:last-child {
+    margin-right: 0px; /* Remove o espaçamento do último card */
+}
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card1-content {
+    padding: 30px;
+}
+
+.card1 h2.card1 {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+}
+
+.card1 p {
+    font-size: 10px;
+    color: #f3f0f0;
+}
+
+
+.card1 {
+    box-shadow: #0d5212;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #b6ceb6;
+    color: #fff;
+    padding: 0px 0px;
+    border-radius: 15px;
+    transition: background-color 0.2s;
+}
+
+.card1 a {
+    width: auto;
+    padding: 30px;
+    align-items: center;
+    border-bottom: #0d5212;
+}
+
+    
+
+
+   
+/*CARD FIM */
+
+
+
+
+#sec{   
+ margin-left: 40%;
+text-align: center;
+display: flex;
+
+}
+
+section /*DESTAQUE */{
+
+    
+    align-items: center;
+    padding: 20px;
+    margin: 5%;
+    background-color: #F46A4E;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(105, 35, 3);
+    color: rgb(240, 239, 239);
+}
+
+.contact{
+background-color: #F46A4E;
+margin: 110px;
+padding: 150px;
+
+}
+
+.logo1{
+margin: 10%;
+display: inline-block;
+padding: 70px;
+align-items: center;
+border-radius: 5px;
+background-color: #F46A4E;
+
+}
+
+
+.textogaleria{
+
+margin: 10px;
+display: inline-block   ;
+
+
+}
+footer {
+     
+    text-align: center;
+    background-color: #F46A4E;
+    color: #fce2e2;
+    
+    padding: 10px;
+    width: auto;
+    margin: 10vw;
+    
+    
+}
