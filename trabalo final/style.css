@@ -1,0 +1,402 @@
+
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+ background-image: url(backrgound2.jpg); padding: 10 px;
+ 
+ background-position: center;
+    background-repeat: no-repeat;
+
+    margin: auto;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav {
+	margin: 27px auto 0;
+    margin-top: -8px;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #3987d4;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    text-shadow: #9d9ddf;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    
+    height: 8vh; 
+
+  }
+header {
+    background-color: #00a6ed;
+    color: #fff;
+    text-align: cente;
+    padding: 20px;
+    /* sombra abaixo do header */ box-shadow: 0 8px 130px rgba(0, 0, 0, 0.2)
+}
+
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+/* COR DO TEXTO DO HEADER */
+nav a {
+    text-decoration: none;
+    color: #e7dfdf;
+    font-family: "poppins" sans-serif;
+}
+
+/*CARD INICIO*/
+
+.card {
+    
+    display: inline-block;/*Estapropriedade faz com que os cards fiquem lado a lado */
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-right: 20px; /* Espaçamento entre os cards*/
+    
+}
+
+
+#center {
+    
+align-items: center;
+justify-content: center;
+margin: 150  5px;
+display: inline-block;
+margin-right: 20px;
+
+
+}
+.card:last-child {
+    margin-right: 0px; /* Remove o espaçamento do último card */
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 10px;
+    color: #555;
+    padding: 10px;
+    display: flex;
+}
+
+.card a {
+
+  
+    
+    text-decoration: none;
+    background-color: #00a6ed;
+    color: #fff;
+    padding: 10px;
+    margin: 10px ;
+    text-align: center;
+}
+
+
+
+
+    
+    
+    
+    
+   
+
+.card a:hover {
+    background-color: #F46A4E;
+}
+/*CARD FIM */
+
+/*CARD INICIO*/
+
+.card1:hover /* card sombra */
+
+{ background-color: #358b44; 
+
+transition: 1.0s;
+
+opacity: 0.7;
+}
+.card1 {
+       
+    display: inline-block; /* Esta propriedade faz com que os cards fiquem lado a lado */
+    width: 200px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-right: 10px; /* Espaçamento entre os cards */
+    
+}
+.card1:last-child {
+    margin-right: 0px; /* Remove o espaçamento do último card */
+}
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card1-content {
+    padding: 30px;
+}
+
+.card1 h2.card1 {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+}
+
+.card1 p {
+    font-size: 15px;
+    color: #f3f0f0;
+}
+
+
+.card1 {
+    box-shadow: #0d5212;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #b6ceb6;
+    color: #fff;
+    padding: 0px 0px;
+    border-radius: 15px;
+    transition: background-color 0.2s;
+}
+
+.card1 a {
+    width: auto;
+    padding: 30px;
+    align-items: center;
+    border-bottom: #0d5212;
+}
+
+
+#center {
+
+margin: 80px;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+   
+/*CARD FIM */
+
+
+
+
+#sec{   
+ margin-left: 40%;
+text-align: center;
+display: flex;
+
+}
+
+#content /*DESTAQUE */{
+
+    
+    align-items: center;
+    padding: 20px;
+    margin: 5%;
+    background-color: #00a6ed;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(105, 35, 3);
+    color: rgb(240, 239, 239);
+}
+
+
+
+
+.logo1{
+margin: 10%;
+display: inline-block; 
+padding: 70px;
+align-items: center;
+border-radius: 5px;
+background-color: #F46A4E;
+
+}
+
+/*SLIDE SHOW PROJETO */
+.sect{
+
+margin: 10px 10px 10px;
+
+
+}
+/*depoimento*/
+
+
+
+
+       
+
+
+footer {
+     
+    text-align: center;
+    background-color: #00a6ed;
+    color: #fce2e2;
+    padding: 10px ;
+    width: auto;
+    
+    
+    
+}
+.fte {
+
+font-size: 30px;
+}
+
+.logo3{
+
+  
+   width: auto;
+   height: 200px;
+   display: flex;
+   margin-bottom:-100px;
+   margin-top: -50px;
+
+
+}
+
+.logo6{
+
+   width: auto ;
+   height: 70px;
+   display: flex;
+   margin-left: 1200px;
+   margin-top: -100px ;
+   margin-top: px;
+   
+}
+
+h4{
+
+    color: rgb(0, 0, 0)40, 229, 229);
+    font-size: 20px;
+    margin-left: 1205px;
+    display: flex;
+
+}
+
+h5{
+
+    
+
+}
